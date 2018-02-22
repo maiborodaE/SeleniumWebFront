@@ -18,9 +18,26 @@ public class UserCredentials {
 //   Site-menu links:
     public static String activityMenu = "div.left-menu-main > div:nth-of-type(5)";
     public static String constrAnketMenu = "div.parent-list > div:nth-of-type(2) > span.left-menu-sub-item > div > div > div";
+    public static String directoriesMenu = "i.fa.fa-archive";
+    public static String manufMenu = "div.parent-list > div:nth-of-type(11) > span.left-menu-sub-item > div > div > div";
+//   Quest-menu links:
     public static String createQHbutton = "div.quest-wrapp > div.paper-header > div.wrap > div.buttons > div:nth-of-type(3) > button > div > span";
     public static String saveQHbutton = "div.button-wrap > button:first-child > div > span";
     public static String deleteQHbutton = "div.buttons > div:first-child > button > div > span";
+//    Quest-property links:
+    public static String nameQI = "name";
+    public static String productCat = "category";
+    public static String productBrand = "brand";
+    public static String answerRecommend = "answerRecommend";
+    public static String Photo = "photoReport";
+
+
+    //    Manufacturees links:
+    public static String createManufbutton = "div.btn-wrap > button > div > svg";
+    public static String nameManufField = "[name=\"name\"]";
+    public static String saveManufButton = "div.button-wrap > button:first-child > div > span";
+
+
 
 
 
